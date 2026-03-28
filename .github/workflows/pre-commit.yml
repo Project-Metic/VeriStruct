@@ -16,7 +16,7 @@ on:
 
 jobs:
   pre-commit:
-    runs-on: ubuntu-latest
+    runs-on: magnon-enterprise-runners
 
     steps:
       - name: Checkout code
